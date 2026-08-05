@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Go Out With Me?</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts for pixel-style typography -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container" id="main-card">
+        <!-- Image Box -->
+        <div class="image-box">
+            <img id="cat-img" src="https://media1.giphy.com/media/LUIvcbR6yytz2/giphy.gif" alt="Cute Cat">
+        </div>
+
+        <!-- Main Question -->
+        <h1 id="question-text">Will you go out with me?</h1>
+
+        <!-- Buttons Container -->
+        <div class="button-group" id="btn-group">
+            <button id="yes-btn" onclick="handleYes()">YES ✨</button>
+            <button id="no-btn" onmouseover="moveNoButton()" onclick="handleNo()">No</button>
+        </div>
+        <p id="guilt-text"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
